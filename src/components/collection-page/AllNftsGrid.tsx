@@ -48,8 +48,8 @@ export function AllNftsGrid() {
     type === "ERC1155" ? getNFTs1155 : getNFTs721,
     {
       contract: nftContract,
-      start: pages[currentPageIndex].start,
-      count: pages[currentPageIndex].count,
+      start: pages[currentPageIndex]?.start,
+      count: pages[currentPageIndex]?.count,
     }
   );
   const len = allNFTs?.length ?? 0;
