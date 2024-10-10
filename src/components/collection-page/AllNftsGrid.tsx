@@ -122,7 +122,7 @@ export function AllNftsGrid() {
           >
             <MdKeyboardDoubleArrowRight />
           </Button>
-          {/* <Select
+          <Select
             w="80px"
             onChange={(e) => setItemsPerPage(Number(e.target.value))}
           >
@@ -131,7 +131,7 @@ export function AllNftsGrid() {
                 {item}
               </option>
             ))}
-          </Select> */}
+          </Select>
         </Flex>
       </Box>
     </>

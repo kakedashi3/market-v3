@@ -61,15 +61,15 @@ export const NFT_CONTRACTS: NftContract[] = [
     chain: polygonAmoy,
     title: "Mata NFT",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidec7x6bptqmrxgptaedd7wfwxbsccqfogzwfsd4a7duxn4sdmnxy/0.png",
+      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidec7x6bptqmrxgptaedd7wfwxbsccqfogzwfsd4a7duxn4sdmnxy/1.png",
     type: "ERC721",
   },
   {
-    address: "0x5893922CB17696641ce49Ac263Ad7786dFc1A8C1",
+    address: "0xdAca9871514cBFb7C37d305e8b377E54CB71a745",
     chain: sepolia,
-    title: "DaijobuTestCollective (DTC)",
+    title: "ThirdwebTestDeployNFTCollection",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeif2nz6wbwuryijk2c4ayypocibexdeirlvmciqjyvlzz46mzoirtm/0.png",
+      "https://arweave.net/sgpMDTBf60vQcWbyUqz4ROtSHmKdNQ0FeBld-enz9LA/0.png",
     type: "ERC721",
   },
 ];
