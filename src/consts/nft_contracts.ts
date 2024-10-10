@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy } from "./chains";
+import { avalancheFuji, polygonAmoy, sepolia } from "./chains";
 
 export type NftContract = {
   address: string;
@@ -65,11 +65,11 @@ export const NFT_CONTRACTS: NftContract[] = [
     type: "ERC721",
   },
   {
-    address: "0xd5e815241882676F772A624E3892b27Ff3a449c4",
-    chain: avalancheFuji,
-    title: "Cats (ERC1155)",
+    address: "0x5893922CB17696641ce49Ac263Ad7786dFc1A8C1",
+    chain: sepolia,
+    title: "DaijobuTestCollective (DTC)",
     thumbnailUrl:
       "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeif2nz6wbwuryijk2c4ayypocibexdeirlvmciqjyvlzz46mzoirtm/0.png",
-    type: "ERC1155",
+    type: "ERC721",
   },
 ];
