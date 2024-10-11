@@ -22,16 +22,16 @@ Want to request a feature? [Create a GitHub issue!](https://github.com/thirdweb-
 ## Installation
 ### 1. Clone the template or [fork it](https://github.com/thirdweb-example/marketplace-template/fork)
 ```bash
-git clone https://github.com/thirdweb-example/marketplace-template
+git clone https://github.com/kakedashi3/market-v3.git
 ```
 
 ### 2. Install the dependencies
 ```bash
-# npm
-npm install
-
 # yarn
 yarn
+
+# npm
+npm install
 
 # pnpm
 pnpm install
@@ -40,18 +40,18 @@ pnpm install
 ### 3. Set up environment variables
 Create a file called `.env.local` (at the root level of your project) with the following content:
 ```
-NEXT_PUBLIC_TW_CLIENT_ID="<your-thirdweb-client-id"
+NEXT_PUBLIC_TW_CLIENT_ID="your-thirdweb-client-id"
 ```
 Don't have a thirdweb clientId? [Grab one now](https://thirdweb.com/dashboard/settings/api-keys). Make sure you set up the `Allowed Domains` properly. [Learn how](https://portal.thirdweb.com/account/api-keys)
 
 ### 4. You're set
 You can now run the template in your local machine.
 ```bash
-# npm
-npm run dev
-
 # yarn
 yarn dev
+
+# npm
+npm run dev
 
 # pnpm
 pnpm dev
